@@ -1,0 +1,25 @@
+[
+  {
+    "name": "room 0",
+    "desc": "At this moment you are standing at the edge of the forest(room 0)\nThere are three different rooms near you\nAmong them lies the only way out of the forest",
+    "exits": {"east": 1,"north": 3,"west": 2}
+  },
+  {
+    "name": "A white room",
+    "desc": "You are in a simple room with white walls.",
+    "exits": { "eastsouth": 0},
+    "items": ["book"]
+  }
+, {
+    "name": "A blue room",
+    "desc": "This room is simple, too, but with blue walls.",
+    "exits": {"northwest": 0},
+    "items": ["longsword"]
+  }
+, {
+    "name": "A red room",
+    "desc": "This room is fancy. It's red!",
+    "exits": { "northeast": 0},
+    "items": ["ring"]
+  }
+]
